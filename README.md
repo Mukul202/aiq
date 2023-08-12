@@ -110,4 +110,22 @@ For anonymous users: 100/minute
 For authenticated users: 200/minute
 ```
 
+## Single Powerplant data:
+``` sh
+http://localhost:8000/api/powerplants/1
+```
+One can fetch data for a single powerplant and the API response looks like: 
+
+``` sh 
+{
+    "id": 1,
+    "plant_name": "Agrium Kenai Nitrogen Operations",
+    "plant_state": "AK",
+    "annual_net_generation": 0,
+    "longitude": -151.3784,
+    "latitude": 60.6732,
+    "percentage": 0.0
+}
+```
+
 
