@@ -154,9 +154,10 @@ CACHES = {
 #     '127.0.0.1'
 # ]
 
-CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_ALL_ORIGINS = True
 
-# CORS_ALLOWED_ORIGINS = [
-#     "https://aiq-us-powerplants-frontend-mukul202.vercel.app",
-#     # Replace with the origin of your frontend
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "https://aiq-us-powerplants-frontend-mukul202.vercel.app",
+    "http://localhost:3000",
+    # Replace with the origin of your frontend
+]
