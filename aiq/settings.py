@@ -27,9 +27,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-gv8pm@1r-9k5ir6hfv4axv!epko8%lkvon*y+g$-(w(($6ea4+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -154,6 +154,9 @@ CACHES = {
 #     '127.0.0.1'
 # ]
 
+CORS_ALLOW_ALL_ORIGINS = True
+
 # CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:3000",  # Replace with the origin of your frontend
+#     "https://aiq-us-powerplants-frontend-mukul202.vercel.app",
+#     # Replace with the origin of your frontend
 # ]
